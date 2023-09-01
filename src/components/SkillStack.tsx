@@ -10,83 +10,23 @@ const SkillStack = () => {
         </section>
         <div className=" w-full ">
           <div className="grid grid-cols-2  justify-items-center gap-16 md:grid-cols-4">
-            <Image
-              src="/SkillStack/javascript.svg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />
-            <Image
-              src="/SkillStack/react.svg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />
-            <Image
-              src="/SkillStack/typescript-icon.svg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />
-            <Image
-              src="/SkillStack/nextjs-icon.svg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />
+            <Image src="/SkillStack/javascript.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/SkillStack/react.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/SkillStack/typescript-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/SkillStack/nextjs-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
             <Image
               src="/SkillStack/tailwindcss-icon.svg"
               alt="image"
               width={50}
               height={50}
-              className="  rounded-md object-cover"
+              className="  rounded-md "
             />
-            <Image
-              src="/SkillStack/flutter.svg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />{" "}
-            <Image
-              src="/SkillStack/figma.svg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />
-            <Image
-              src="/SkillStack/threejs.jpg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />
-            <Image
-              src="/SkillStack/nodejs-icon-alt.svg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />
-            <Image
-              src="/SkillStack/python.svg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />
-            <Image
-              src="/SkillStack/supabase-icon.svg"
-              alt="image"
-              width={50}
-              height={50}
-              className="  rounded-md object-cover"
-            />
+            <Image src="/SkillStack/flutter.svg" alt="image" width={50} height={50} className="  rounded-md " />{" "}
+            <Image src="/SkillStack/figma.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/SkillStack/threejs.jpg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/SkillStack/nodejs-icon-alt.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/SkillStack/python.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/SkillStack/supabase-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
           </div>
         </div>
       </div>
