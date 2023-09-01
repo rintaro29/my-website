@@ -10,10 +10,10 @@ const SkillStack = () => {
         </section>
         <div className=" w-full ">
           <div className="grid grid-cols-2  justify-items-center gap-16 md:grid-cols-4">
-            <Image src="/SkillStack/javascript.svg" alt="image" width={50} height={50} className="  rounded-md " />
-            <Image src="/SkillStack/react.svg" alt="image" width={50} height={50} className="  rounded-md " />
-            <Image src="/SkillStack/typescript-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
-            <Image src="/SkillStack/nextjs-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/skillStack/javascript.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/skillStack/react.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/skillStack/typescript-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/skillStack/nextjs-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
             <Image
               src="/SkillStack/tailwindcss-icon.svg"
               alt="image"
