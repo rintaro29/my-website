@@ -11,5 +11,8 @@
   left: 0;
   background-image: url("/images/hot-spring1.jpg");
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.3;
+  height: 700px;
+
+  pointer-events: none;
 }

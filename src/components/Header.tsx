@@ -3,7 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
   return (
-    <header className=" py-6">
+    <header className="  py-6">
       <div className="container mx-auto flex w-full items-center  justify-between px-8 md:px-14 lg:px-24">
         <div className="text-lg font-bold ">Hello my website</div>
         <div className="hidden items-center space-x-12 md:flex">

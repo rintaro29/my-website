@@ -6,7 +6,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className=" w-full  bg-black  px-1 text-white">
       <div className="">
-        <Header />
         <Component {...pageProps} />
       </div>
     </div>

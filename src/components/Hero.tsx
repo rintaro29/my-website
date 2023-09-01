@@ -12,7 +12,7 @@ const Hero = () => {
             <Image src="/images/my-icon.jpg" alt="image" width={200} height={200} className="  mr-6 rounded-full" />
             <div>
               <p className=" text-2xl font-bold md:text-left md:text-4xl lg:text-5xl"> Rintaro</p>
-              <p className="my-1 text-2xl">in Shiga </p>
+              <p className="my-1 text-base">Born in Oita, Japan </p>
             </div>
           </div>
           <p className="my-1 text-2xl">Ritsumeikan University 3th grade </p>
@@ -21,7 +21,6 @@ const Hero = () => {
         {/* プロフィール */}
         <div className="z-20  hidden  bg-slate-500 p-6 pr-10 md:block">
           <p className="my-1 text-center  text-2xl font-bold md:text-left md:text-4xl lg:text-5xl">Profile</p>
-          <p>Born in Oita, Japan</p>
           <p>2021.4. Enroll at KwanseiGakuin University</p>
           <br />
           <p className="text-base  md:text-xl">Belong to</p>
