@@ -21,12 +21,12 @@ const SkillStack = () => {
               height={50}
               className="  rounded-md "
             />
-            <Image src="/SkillStack/flutter.svg" alt="image" width={50} height={50} className="  rounded-md " />{" "}
-            <Image src="/SkillStack/figma.svg" alt="image" width={50} height={50} className="  rounded-md " />
-            <Image src="/SkillStack/threejs.jpg" alt="image" width={50} height={50} className="  rounded-md " />
-            <Image src="/SkillStack/nodejs-icon-alt.svg" alt="image" width={50} height={50} className="  rounded-md " />
-            <Image src="/SkillStack/python.svg" alt="image" width={50} height={50} className="  rounded-md " />
-            <Image src="/SkillStack/supabase-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/skillStack/flutter.svg" alt="image" width={50} height={50} className="  rounded-md " />{" "}
+            <Image src="/skillStack/figma.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/skillStack/threejs.jpg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/skillStack/nodejs-icon-alt.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/skillStack/python.svg" alt="image" width={50} height={50} className="  rounded-md " />
+            <Image src="/skillStack/supabase-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
           </div>
         </div>
       </div>
