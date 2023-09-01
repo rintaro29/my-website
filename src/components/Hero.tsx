@@ -4,29 +4,37 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div
-      id="Home"
-      className=" container mx-auto mt-16 flex  w-full items-center justify-between px-8 md:px-14 lg:px-24"
-    >
-      <div className="flex flex-wrap md:flex-nowrap">
-        <div className=" flex flex-wrap justify-center md:my-36 lg:ml-20">
-          <h1 className="text-center text-5xl font-bold md:text-left md:text-6xl lg:text-7xl">
-            Hi! <br />
-            I am from Oita <br />
-            Hot Spring is famous
-          </h1>
-          <button className="mt-10 rounded bg-theme p-4 font-bold transition-all duration-300 hover:bg-pink-300">
+    <div id="Home" className=" container mx-auto mb-10    w-full justify-between ">
+      <div className="transparent-bg flex w-full items-center">
+        {/* 名前とアイコン */}
+        <div className=" flex flex-col  flex-wrap md:my-36  md:px-14 lg:ml-20 lg:px-24">
+          <div className="mb-12 mr-20 flex ">
+            <Image src="/images/my-icon.jpg" alt="image" width={200} height={200} className="  mr-6 rounded-full" />
+            <div>
+              <p className=" text-2xl font-bold md:text-left md:text-4xl lg:text-5xl"> Rintaro</p>
+              <p className="my-1 text-2xl">in Shiga </p>
+            </div>
+          </div>
+          <p className="my-1 text-2xl">Ritsumeikan University 3th grade </p>
+          <p> Faculty of Information Science and Engineering</p>
+        </div>
+        {/* プロフィール */}
+        <div className="z-20  hidden  bg-slate-500 p-6 pr-10 md:block">
+          <p className="my-1 text-center  text-2xl font-bold md:text-left md:text-4xl lg:text-5xl">Profile</p>
+          <p>Born in Oita, Japan</p>
+          <p>2021.4. Enroll at KwanseiGakuin University</p>
+          <br />
+          <p className="text-base  md:text-xl">Belong to</p>
+          <p>・Ritsumeikan Computer Club</p>
+          <p>・Google Developer Student Ritsumeikan</p>
+          <p>・Tech Uni</p>
+          <p>・Into The Green</p>
+
+          <button className="z-10 mt-2 w-40 rounded bg-theme p-2 font-bold transition-all duration-300 hover:bg-pink-300">
             <ReadMoreIcon className="mr-2" />
             Read more
           </button>
         </div>
-        <Image
-          src="/images/hot-spring1.jpg"
-          alt="image"
-          width={400}
-          height={400}
-          className="right-6  mx-auto  mt-3  w-3/5 md:absolute md:mt-0  md:w-2/5 lg:right-52"
-        />
       </div>
     </div>
   );

@@ -18,6 +18,9 @@ const config: Config = {
         input: "#2A2A33",
         inputBorder: "#565666",
       },
+      backgroundImage: {
+        backImage: "url('/images/hot-spring1.jpg')",
+      },
     },
   },
   plugins: [],
