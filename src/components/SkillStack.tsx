@@ -15,13 +15,13 @@ const SkillStack = () => {
             <Image src="/skillStack/typescript-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
             <Image src="/skillStack/nextjs-icon.svg" alt="image" width={50} height={50} className="  rounded-md " />
             <Image
-              src="/SkillStack/tailwindcss-icon.svg"
+              src="/skillStack/tailwindcss-icon.svg"
               alt="image"
               width={50}
               height={50}
               className="  rounded-md "
             />
-            <Image src="/skillStack/flutter.svg" alt="image" width={50} height={50} className="  rounded-md " />{" "}
+            <Image src="/skillStack/flutter.svg" alt="image" width={50} height={50} className="  rounded-md " />
             <Image src="/skillStack/figma.svg" alt="image" width={50} height={50} className="  rounded-md " />
             <Image src="/skillStack/threejs.jpg" alt="image" width={50} height={50} className="  rounded-md " />
             <Image src="/skillStack/nodejs-icon-alt.svg" alt="image" width={50} height={50} className="  rounded-md " />
