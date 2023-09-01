@@ -4,9 +4,11 @@ import Header from "../components/Header";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className=" bg-main px-1 text-white">
-      <Header />
-      <Component {...pageProps} />
+    <div className=" w-full  bg-black  px-1 text-white">
+      <div className="">
+        <Header />
+        <Component {...pageProps} />
+      </div>
     </div>
   );
 }

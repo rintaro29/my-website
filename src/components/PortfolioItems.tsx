@@ -9,7 +9,8 @@ type PortfolioItemsProps = {
 const PortfolioItems = ({ title, imageUrl }: PortfolioItemsProps) => {
   return (
     <div className="hover:text-blue-500">
-      {title}
+      <div className="mb-3 text-xl font-bold"> {title}</div>
+
       <Image
         src={imageUrl}
         alt={title}

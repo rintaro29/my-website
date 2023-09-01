@@ -8,7 +8,7 @@ const Contact = () => {
         <section className=" mb-32  w-full">
           <div className="">
             <div className="flex">
-              <div className=" mr-12 text-6xl font-bold">Contact Me</div>
+              <div className=" mr-6 text-3xl font-bold md:text-6xl lg:mr-24">Contact Me</div>
 
               <Image src="/SNS/twitter.svg" alt="image" width={40} height={40} className="mx-2  rounded-full" />
               <Image src="/SNS/instagram.png" alt="image" width={55} height={55} className="z-10  mx-2 rounded-full " />
