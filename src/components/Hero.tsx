@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         {/* プロフィール */}
         <div className="z-20  hidden  bg-slate-500 p-6 pr-10 md:block">
-          <p className="my-1 text-center  text-2xl font-bold md:text-left md:text-4xl lg:text-5xl">Profile</p>
+          <p className="my-1 text-center  text-2xl font-bold md:text-left md:text-4xl lg:text-5xl">Profolio</p>
           <p>2021.4. Enroll at KwanseiGakuin University</p>
           <br />
           <p className="text-base  md:text-xl">Belong to</p>
