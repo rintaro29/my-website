@@ -1,7 +1,10 @@
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
+import { useState } from "react";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="  py-6">
       <div className="container mx-auto flex w-full items-center  justify-between px-8 md:px-14 lg:px-24">
@@ -23,7 +26,23 @@ const Header = () => {
           </Link>
         </div>
         <div className="md:hidden">
-          <MenuIcon />
+          <MenuIcon onClick={() => setMenuOpen(!menuOpen)} />
+          {menuOpen && (
+            <div className="absolute right-0 mt-2 w-48 rounded-md bg-slate-700 shadow-lg">
+              <Link href="#" className="block px-4 py-2 hover:bg-gray-200">
+                ホーム
+              </Link>
+              <Link href="#Portfolio" className="block px-4 py-2 hover:bg-gray-200">
+                ポートフォリオ
+              </Link>
+              <Link href="#SkillStack" className="block px-4 py-2 hover:bg-gray-200">
+                スキルスタック
+              </Link>
+              <Link href="#Contact" className="block px-4 py-2 hover:bg-gray-200">
+                お問い合わせ
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </header>
