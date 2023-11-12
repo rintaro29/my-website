@@ -42,7 +42,7 @@ const SkillStack = () => {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          <div className="mb-32 text-6xl font-bold">Skill Stack</div>
+          <div className="mb-28 text-4xl font-bold">Skill Stack</div>
         </motion.section>
         <div className="w-full">
           <motion.div
