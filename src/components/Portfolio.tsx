@@ -32,7 +32,7 @@ const Portfolio = () => {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          <div className="mb-24 text-3xl font-bold">My Portfolio</div>
+          <div className="mb-20 text-3xl font-bold">My Portfolio</div>
         </motion.section>
         <div className="w-full" ref={ref}>
           <motion.div
