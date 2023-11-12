@@ -10,7 +10,7 @@ const Header = () => {
     <header className="  py-6">
       <div className="flex">
         <div className="container mx-auto flex w-full items-center  justify-between px-8 md:px-14 lg:px-24">
-          <div className="text-lg font-bold ">Hello my website</div>
+          <div className="text-xl font-bold ">Hello my website</div>
           <div className="hidden items-center space-x-12 md:flex">
             <Link href="#" className="transition-all duration-300 hover:text-selected-text">
               ホーム

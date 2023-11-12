@@ -25,19 +25,16 @@ const Portfolio = () => {
 
   return (
     <>
-      <div
-        ref={ref}
-        className="container mx-auto mb-14 mt-80 flex w-full flex-col items-center justify-between px-8 md:px-14 lg:px-24"
-      >
+      <div className="container mx-auto mb-14 mt-80 flex w-full flex-col items-center justify-between px-8 md:px-14 lg:px-24">
         <motion.section
           className="w-full"
           variants={itemVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          <div className="mb-32 text-6xl font-bold">My Portfolio</div>
+          <div className="mb-24 text-3xl font-bold">My Portfolio</div>
         </motion.section>
-        <div className="w-full">
+        <div className="w-full" ref={ref}>
           <motion.div
             className="grid gap-6 md:grid-cols-2"
             variants={{ visible: { transition: { staggerChildren: 0.4 } } }}

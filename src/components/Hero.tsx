@@ -7,8 +7,8 @@ const Hero = () => {
     <div id="Home" className=" container mx-auto mb-10    w-full justify-between ">
       <div className="transparent-bg flex w-full items-center">
         {/* 名前とアイコン */}
-        <div className=" flex flex-col  flex-wrap md:my-36  md:px-14 lg:ml-20 lg:px-24">
-          <div className="mb-12 mr-20 flex ">
+        <div className=" flex flex-col  flex-wrap md:my-20  md:px-14 lg:ml-20 lg:px-24">
+          <div className="mb-8 mr-20 flex ">
             <Image src="/images/my-icon.jpg" alt="image" width={200} height={200} className="  mr-6 rounded-full" />
             <div>
               <p className=" text-2xl font-bold md:text-left md:text-4xl lg:text-5xl"> Rintaro</p>

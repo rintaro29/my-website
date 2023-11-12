@@ -13,11 +13,11 @@ const Contact = () => {
 
               <Link href="https://github.com/rintaro29?tab=repositories">
                 <Image
-                  src="/skillStack/github-icon.svg"
+                  src="/skillStack/github-original.svg"
                   alt="image"
                   width={40}
                   height={40}
-                  className="mx-2 rounded-full"
+                  className="mx-2 rounded-full bg-slate-300"
                 />
               </Link>
               <Link href="https://twitter.com/9atdc">
