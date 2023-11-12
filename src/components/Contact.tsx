@@ -30,7 +30,7 @@ const Contact = () => {
           <div className="flex items-center">
             <div className=" mr-6 text-3xl font-bold md:text-6xl lg:mr-24">Contact Me</div>
 
-            <Link href="https://github.com/rintaro29?tab=repositories">
+            <Link href="https://github.com/rintaro29">
               <Image
                 src="/skillStack/github-original.svg"
                 alt="image"
