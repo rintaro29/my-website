@@ -11,10 +11,10 @@ const Portfolio = () => {
         </section>
 
         <div className="grid gap-6  md:grid-cols-2">
-          <PortfolioItems title="3D-Portfolio" imageUrl="/images/universe.jpg" />
-          <PortfolioItems title="Accounting System" imageUrl="/images/accounting-system.png" />
-          <PortfolioItems title="Chat App" imageUrl="/images/chat-app.jpeg" />
-          <PortfolioItems title="Cafeteria App" imageUrl="/images/cafeteria.jpg" />
+          <PortfolioItems title="3D-Portfolio" imageUrl="/images/universe.jpg" link="" />
+          <PortfolioItems title="Accounting System" imageUrl="/images/accounting-system.png" link="" />
+          <PortfolioItems title="Chat App" imageUrl="/images/chat-app.jpeg" link="" />
+          <PortfolioItems title="Cafeteria App" imageUrl="/images/cafeteria.jpg" link="" />
         </div>
       </div>
     </>
