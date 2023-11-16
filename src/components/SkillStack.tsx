@@ -34,7 +34,7 @@ const SkillStack = () => {
     <>
       <div
         ref={ref}
-        className="container mx-auto mt-60 flex w-full flex-col items-center justify-between px-8 md:px-14 lg:px-24"
+        className="container mx-auto mb-60 flex w-full flex-col items-center justify-between px-8 md:px-14 lg:px-24"
       >
         <motion.section
           className="w-full"

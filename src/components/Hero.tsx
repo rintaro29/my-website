@@ -23,7 +23,7 @@ const Hero = () => {
           <p className="my-1 text-center  text-2xl font-bold md:text-left md:text-4xl lg:text-5xl">Profile</p>
           <p>2021.4. Enroll at Ritsumeikan University</p>
           <br />
-          <p className="text-base  md:text-xl">Belong to</p>
+          <p className="text-base  md:text-xl">Belong to Circles</p>
           <p>・Ritsumeikan Computer Club</p>
           <p>・Google Developer Student Ritsumeikan</p>
           <p>・Tech Uni</p>

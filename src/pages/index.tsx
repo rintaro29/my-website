@@ -31,7 +31,6 @@ export default function Home() {
           <Contact2 />
         </div>
       </div>
-      <Contact />
     </div>
   );
 }
