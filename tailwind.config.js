@@ -25,6 +25,7 @@ module.exports = {
       },
       colors: {
         main: "#050505",
+        tertiary: "#151030",
         "selected-text": "#304ADE",
         theme: "#E73BE2",
         input: "#2A2A33",

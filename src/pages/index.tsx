@@ -5,6 +5,8 @@ import Portfolio from "@/components/Portfolio";
 import SkillStack from "@/components/SkillStack";
 import Contact from "@/components/Contact";
 import Header from "@/components/Header";
+import StarsCanvas from "@/components/canvas/Stars";
+import Contact2 from "@/components/Contact2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +25,10 @@ export default function Home() {
       <div id="SkillStack">
         <SkillStack />
       </div>
-      <Contact />
-      <div id="Contact"></div>
+      <div className="relative z-0">
+        <Contact2 />
+        <StarsCanvas />
+      </div>
     </div>
   );
 }
