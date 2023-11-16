@@ -18,7 +18,7 @@ const PortfolioItems = ({ title, imageUrl, link }: PortfolioItemsProps) => {
         alt={title}
         width={200}
         height={200}
-        className="z-10 h-56 w-full rounded-md object-cover hover:opacity-60 lg:h-60"
+        className="z-10 h-40 w-full rounded-md object-cover hover:opacity-60 lg:h-60"
       />
       <Link href={link}></Link>
     </div>

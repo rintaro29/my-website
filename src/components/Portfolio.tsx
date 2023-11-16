@@ -12,7 +12,7 @@ const Portfolio = () => {
 
   const portfolioData = [
     { title: "3D-Portfolio", imageUrl: "/images/universe.jpg", link: "" },
-    { title: "Accounting System", imageUrl: "/images/accounting-system.png", link: "" },
+    { title: "Accounting System", imageUrl: "/images/kaikei.jpg", link: "" },
     { title: "Chat App", imageUrl: "/images/chat-app.jpeg", link: "" },
     { title: "Cafeteria App", imageUrl: "/images/cafeteria.jpg", link: "" },
     // 他のPortfolioItemsデータを追加
@@ -36,13 +36,13 @@ const Portfolio = () => {
         </motion.section>
         <div className="w-full" ref={ref}>
           <motion.div
-            className="grid gap-6 md:grid-cols-2"
+            className="grid gap-x-24 gap-y-5 md:grid-cols-2"
             variants={{ visible: { transition: { staggerChildren: 0.4 } } }}
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
           >
             {portfolioData.map((item, index) => (
-              <motion.div key={index} variants={itemVariants}>
+              <motion.div key={index} variants={itemVariants} className="">
                 <PortfolioItems title={item.title} imageUrl={item.imageUrl} link={item.link} />
               </motion.div>
             ))}
