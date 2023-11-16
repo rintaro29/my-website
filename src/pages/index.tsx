@@ -19,16 +19,19 @@ export default function Home() {
       <div className="  ">
         <Hero />
       </div>
-      <div id="Portfolio">
-        <Portfolio />
-      </div>
-      <div id="SkillStack">
-        <SkillStack />
-      </div>
       <div className="relative z-0">
-        <Contact2 />
         <StarsCanvas />
+        <div id="Portfolio">
+          <Portfolio />
+        </div>
+        <div id="SkillStack">
+          <SkillStack />
+        </div>
+        <div id="Contact" className="mb-4">
+          <Contact2 />
+        </div>
       </div>
+      <Contact />
     </div>
   );
 }
